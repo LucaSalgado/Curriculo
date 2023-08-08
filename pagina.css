@@ -2,22 +2,40 @@
     size: A4 portrait;
 }
 
+/* font-family: 'Playfair Display', serif;
+font-family: 'Roboto Slab', serif; */
+
+* {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
 .cabecalho {
   display: grid;
   grid-template-columns: 3fr 8fr 3fr;
   grid-template-rows: 100%;
 }
 
+.nome {
+  font-weight: 500;
+  font-size: 30px;
+}
+
 a {
   color: #274874;
+  text-decoration: none;
 }
 
 h1 {
   color: #274874;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  margin-bottom: 0px;
 }
 
 hr {
   color: #274874;
+  margin-top: 1px;
 }
 
 .expTrabCab {
@@ -36,15 +54,18 @@ hr {
 .curso,
 .local {
   text-align: start;
+  font-weight: 500;
 }
 
 .empresa,
 .instituicao,
 .nome {
   text-align: center;
+  font-weight: 500;
 }
 
 .periodo,
 .contato {
   text-align: end;
+  font-weight: 500;
 }
